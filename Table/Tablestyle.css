@@ -1,0 +1,35 @@
+body {
+    margin: 1% 1%;
+    background-image: url(Images/splat2backg.jpg);
+}
+img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 100px;
+}
+table {
+    background-color: gray; opacity: 90%;
+    border: ridge 10px #F98B8D
+}
+tr, th {
+    border: ridge 5px #0FFB71;
+    padding: 4px;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-align: center;
+
+}
+h2 {
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#rankletter {
+    font-family: serif;
+    font-size: 68x;
+}
