@@ -1,0 +1,104 @@
+@charset "UTF-8";
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 10% 0;
+  background: #ecd9b9 url(../images/blackgoose_backgrnd_2ndpage.png) no-repeat fixed left 180px; 
+}      
+a {
+    text-decoration: none;
+  }
+  a:link {
+    color: rgb(153, 53, 51);
+  }
+  a:visited {
+    color: #b17158;
+  }
+  a:focus, a:hover {
+    color: #f24900;
+    background-color: #fff;
+  }
+  a:active {
+    color: rgb(255, 94, 0);
+    background-color: #fff;
+  }
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
+  }  
+h2 {
+  color: #d1633c;
+  font-size: 1.35em;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  text-shadow: .05em .05em .1em lightslategray;
+  }
+  .footertext {
+    font-size: 1.35em;
+    font-weight: bold;
+    letter-spacing: .2em;
+  }
+footer {
+  border-top: 1px solid #57b1dc;
+  text-align: center;
+  padding-top: 1em;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+} 
+#IconX {
+  width: 50px;
+  height: 35px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 2px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 2px;
+}
+ul {
+  text-align: left;
+  font-weight: bold;
+  line-height:25px;
+  margin-left:-36px;
+  font-size: 20px;
+}
+#navi ul li{
+  font-weight: bold;
+  list-style-type: none;
+  text-align: center;
+  padding: .5rem; 
+  display: inline-flex 20px;
+}
+
+.gif{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  contain: content;
+}
