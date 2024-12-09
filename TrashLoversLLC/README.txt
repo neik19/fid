@@ -1,0 +1,5 @@
+Trash lovers LLC Website
+
+This is a website for a fake Business that does subscription packages for buying and managing trash of people, which then they resell at a profit. As you can tell from subtle choices in the site, it is a very big piece on shady businesses that have no purpose apart from pretending that their service is a life changing service, and really feels like they're selling snake oil. That's why I made sure to include many practices like a subscription tier system for literal trash, appraising trash (exclusively trash, no actual collectibles or valuables), and even a protection plan for literal trash. I had a lot of fun coming up with the idea, logos and other things here but gosh the troubleshooting was a nightmare. 
+
+If you get to the apply page, feel free to stay there for a while with the music playing, it is quite stimulating!.
