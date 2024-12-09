@@ -90,6 +90,7 @@ a:hover {
     flex-wrap: nowrap; /* Prevents wrapping to a new line */
     text-align: center;
     padding-right: 4em;
+    color: #ffffff;
 }
 
 .navi-text ul {
@@ -103,6 +104,7 @@ a:hover {
     flex: 0 0 auto; /* Prevents shrinking */
     padding: 10px 16px;
     font-size: 18px; /* Adjust font size */
+    color: #ffffff;
 }
 .navibar a {
     text-decoration: none;
