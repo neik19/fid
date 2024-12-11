@@ -3,88 +3,10 @@
 <head> 
     <meta charset="utf-8"> 
     <title>Neil Granado's Portfolio</title>
-    <style>
-        body {
-            
-            background-color: #CAD4F2;
-        }
-        h1 {
-            margin: 0 8%;
-            text-align: center;
-            font-size: 56px;
-            text-transform: uppercase;
-            border-bottom: 2px solid #2D3AEC;
-            padding-left: 20px;
-            
-        }
-        h2 {
-            text-align: left;
-            font-family: serif;
-            font-size: 40px;
-            text-decoration: underline 2px #2D3AEC;
-        }
-        footer {
-            background-color: #2D3AEC;
-        }
-
-        .NeikLogo {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        ul li {
-            padding: 1rem;
-            display: inline-block;
-        }
-        #ul_li2 {
-            color: rgb(64, 137, 179);
-            text-align: center;
-            text-decoration: underline #2D3AEC;
-        }
-        #navi {
-            text-align: center;
-            font-family: serif;
-            font-size: 24px;
-        }
-        .Footertext {
-            text-align: center;
-            color: azure;
-        }
-        .text {
-            margin: 0 8%;
-            font-family: serif;
-            font-size: 24px;
-            display: inline-block;
-
-        }
-        footer img {
-            width: 40px;
-            height: 40px;
-            margin-left: .5em;
-            margin-right: .5em;
-        } 
-        
-        .column {
-            float: left;
-            width: 33.33%;
-            padding: 2px;
-        }
-
-        .row::after {
-            content: "";
-            clear: both;
-            display: table;
-        }
-        .row {
-            display: flex;
-        }
-
-        .column {
-            flex: 33.33%;
-            padding: 2px;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resume-style.css">
 </head>
 <body>
     <div class="image">
@@ -109,7 +31,7 @@
     <h2>My Software experience</h2>
     <p>I have a variety of experience in multiple programs, going from office work, to presentations, to digital products for design and video production and animation of various forms.
         Some of these inclue:
-        <ul id="ul_li2">
+        <ul id="exp-li">
             <li>All Microsoft 365 products</li>
             <li>Adobe Photoshop</li>
             <li>Adobe Illustrator</li>
@@ -130,7 +52,7 @@
 
     <p>I have extensicve hardware knowledge of all kinds, and although I still have much more experience to learn, I have plenty
     of knowledge on such devices like:
-        <ul id="ul_li2">
+        <ul id="exp-li">
             <li>Desktop computers with Windows and MacOS</li>
             <li>Laptop computers with Windows and MacOS</li>
             <li>Graphic tablets</li>
@@ -146,26 +68,18 @@
 <a href="Softwareexp.html"><p style="text-align: center;">[Back to top]</p></a>
 <br>
 
-    <footer>
-        <div class="Footertext">
-            <div>
-                <p>Don't hesitate to reach out through my socials!</p></div>
-            <div class="row">
-                <div class="column">
-                <p><a href="https://x.com/__Neik__" target="_blank">
-                  <img src="Images/icons/X_logo_2023_(white).png" alt="X/Twitter icon" id="IconX" ></p>
-                  </div>
-            
-              <div class="column">
-                <p><a href="https://www.instagram.com/__neik__/" target="_blank">
-                  <img src="Images/icons/instagram-new.png" alt="Instagram icon"></p>
-                  </div>
-              
-              <div class="column">
-                  <p><a href="https://github.com/neik19" target="_blank">
-                  <img src="Images/icons/github.png" alt="Github icon"></p>
-                </div>
+<footer>
+    <br>
+    <div class="Footertext">
+            <p>Don't hesitate to reach out through my socials!</p></div>
+        <div class="flex-container">
+            <p><a href="https://x.com/__Neik__" target="_blank">
+                <img src="Images/icons/X_logo_2023_(white).png" alt="X/Twitter icon" class="footer-img"></p></a>
+            <p><a href="https://www.instagram.com/__neik__/" target="_blank">
+              <img src="Images/icons/instagram-new.png" alt="Instagram icon" class="footer-img"></p></a>
+            <p><a href="https://github.com/neik19" target="_blank">
+              <img src="Images/icons/github.png" alt="Github icon" class="footer-img"></p></a>
         </div>
-    </footer>
+</footer>
     </body>
     </html>
